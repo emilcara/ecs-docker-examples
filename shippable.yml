@@ -1,7 +1,9 @@
 # language setting
-language: node_js
+language: python
 
-# version numbers, testing against two versions of node
-node_js:
-    - 0.10.25
-    - 0.11
+# version numbers
+python:
+  - "2.7"
+  - "3.2"
+  - "3.3"
+  - "pypy"
